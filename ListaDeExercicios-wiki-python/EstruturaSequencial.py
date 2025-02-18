@@ -42,3 +42,7 @@ print(f'O seu sálario mensal é: R${salario:.2f}')
 temperatura_fahrenheit = input('Insira a temperatura em F (apenas o valor): ')
 temperatura_celsius = 5 * ((int(temperatura_fahrenheit)-32) / 9)
 print(f'A temperatura em Celsius é: {temperatura_celsius}C')
+
+# 10.Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+temperatura_fahrenheit = (temperatura_celsius * 9/5) + 32
+print(f'A temperatura em Fahrenheit é: {temperatura_fahrenheit}F')

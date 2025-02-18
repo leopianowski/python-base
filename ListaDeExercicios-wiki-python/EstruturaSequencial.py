@@ -28,8 +28,8 @@ area = (float(raio)**2)
 print(f'A área do seu círculo é: {area}π')
 
 # 7.Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
-tamanho_lado = ('Insira o tamanho do lado em cm: ')
-area_quadrado = int(tamanho_lado)**2
+tamanho_lado = input('Insira o tamanho do lado em cm: ')
+area_quadrado = int(tamanho_lado) ** 2
 print(f'A área do seu quadrado é {area_quadrado} e o dobro desta área é {tamanho_lado * 2}')
 
 # 8.Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.

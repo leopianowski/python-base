@@ -1,0 +1,13 @@
+# Segredos - NUNCA commitar
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# VS Code
+.vscode/
